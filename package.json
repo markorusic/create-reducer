@@ -1,6 +1,6 @@
 {
   "name": "@markorusic/create-reducer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Helper for creating clean, readable, boilerplate free reducers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
