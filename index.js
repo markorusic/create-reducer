@@ -1,15 +1,15 @@
-import merge from "lodash.merge";
+import merge from 'lodash.merge'
 
 const createReducer = (handlers, initialState = {}) => (
   state = initialState,
   action
 ) => {
-  const handler = handlers[action.type];
+  const handler = handlers[action.type]
   if (!handler) {
-    throw new Error(`Unknown action type: ${action.type}`);
+    throw new Error(`Unknown action type: ${action.type}`)
   }
-  const nextState = handler(state, action);
-  return merge({}, state, nextState);
-};
+  const nextState = handler(state, action)
+  return merge({}, state, nextState)
+}
 
-export default createReducer;
+export default createReducer
