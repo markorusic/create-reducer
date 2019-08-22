@@ -3,8 +3,10 @@
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist"
-    // "strict": true
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": false
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
