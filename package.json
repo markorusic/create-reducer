@@ -2,7 +2,7 @@
   "name": "@markorusic/create-reducer",
   "version": "1.0.0",
   "description": "Helper for creating clean, readable, boilerplate free reducers",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {},
   "keywords": [],
   "author": "Marko Rusic <markousp5@gmail.com>",
