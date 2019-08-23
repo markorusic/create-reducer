@@ -1,7 +1,7 @@
 import merge from 'lodash.merge'
 
 interface Action<Payload = any> {
-  type: string
+  type: string | number
   payload?: Payload
 }
 
